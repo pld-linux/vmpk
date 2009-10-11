@@ -5,13 +5,17 @@ Version:	0.2.6
 Release:	1
 License:	GPL v3
 Group:		X11/Applications/Sound
-Source0:	http://dl.sourceforge.net/project/vmpk/vmpk/0.2.6/%{name}-%{version}.tar.bz2
+Source0:	http://dl.sourceforge.net/vmpk/%{name}-%{version}.tar.bz2
 # Source0-md5:	5f25fbbe139f7e1f3f3e9df321d24f0c
 Patch0:		%{name}-locale.patch
 Patch1:		%{name}-desktop.patch
 URL:		http://vmpk.sourceforge.net/
+BuildRequires:	QtGui-devel >= 4.4.0
+BuildRequires:	alsa-lib-devel
 BuildRequires:	cmake
-BuildRequires:	qt-devel >= 4.4
+BuildRequires:	pkgconfig
+BuildRequires:	qt4-linguist
+BuildRequires:	qt4-qmake
 BuildRequires:	rpmbuild(macros) >= 1.471
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
