@@ -1,0 +1,11 @@
+--- vmpk-0.2.6/translations/CMakeLists.txt.org	2009-09-16 20:28:53.000000000 +0200
++++ vmpk-0.2.6/translations/CMakeLists.txt	2009-09-16 20:29:11.000000000 +0200
+@@ -7,7 +7,7 @@
+ 
+ IF (UNIX AND NOT APPLE)
+     INSTALL( FILES ${QM_FILES}
+-             DESTINATION share/locale )
++             DESTINATION share/vmpk/locale )
+ ENDIF (UNIX AND NOT APPLE)
+ 
+ IF (WIN32)

@@ -1,0 +1,11 @@
+--- vmpk-0.2.6/vmpk.desktop.org	2009-09-16 20:22:56.000000000 +0200
++++ vmpk-0.2.6/vmpk.desktop	2009-09-16 20:23:09.000000000 +0200
+@@ -4,7 +4,7 @@
+ Icon=vmpk
+ Terminal=false
+ Type=Application
+-Categories=AudioVideo;Midi
++Categories=AudioVideo;Midi;
+ Comment=Virtual MIDI Piano Keyboard
+ Comment[es]=Teclado de piano MIDI virtual 
+ Comment[tr]=Sanal MIDI Piyano Klavyesi
