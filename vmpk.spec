@@ -14,6 +14,7 @@ BuildRequires:	QtGui-devel >= 4.4.0
 BuildRequires:	alsa-lib-devel
 BuildRequires:	cmake
 BuildRequires:	pkgconfig
+BuildRequires:	qt4-build
 BuildRequires:	qt4-linguist
 BuildRequires:	qt4-qmake
 BuildRequires:	rpmbuild(macros) >= 1.471
