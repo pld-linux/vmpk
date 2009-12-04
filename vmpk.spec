@@ -11,6 +11,7 @@ Patch0:		%{name}-locale.patch
 Patch1:		%{name}-desktop.patch
 URL:		http://vmpk.sourceforge.net/
 BuildRequires:	QtGui-devel >= 4.4.0
+BuildRequires:	QtXml-devel
 BuildRequires:	alsa-lib-devel
 BuildRequires:	cmake
 BuildRequires:	pkgconfig
